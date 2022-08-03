@@ -29,7 +29,21 @@
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Qmj-wN-dTl">
                                     <rect key="frame" x="0.0" y="0.0" width="105" height="92"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-os-EnY">
+                                            <rect key="frame" x="0.0" y="0.0" width="105" height="92"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Qsh-os-EnY" firstAttribute="top" secondItem="Qmj-wN-dTl" secondAttribute="top" id="46H-fX-Qr2"/>
+                                        <constraint firstAttribute="trailing" secondItem="Qsh-os-EnY" secondAttribute="trailing" id="5Ov-eI-lh0"/>
+                                        <constraint firstAttribute="bottom" secondItem="Qsh-os-EnY" secondAttribute="bottom" id="E7U-Ae-rE5"/>
+                                        <constraint firstItem="Qsh-os-EnY" firstAttribute="leading" secondItem="Qmj-wN-dTl" secondAttribute="leading" id="wD7-WF-aDh"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="docImageView" destination="Qsh-os-EnY" id="maJ-uG-CZG"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

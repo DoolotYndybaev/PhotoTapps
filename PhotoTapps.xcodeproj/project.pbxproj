@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B9DA6D2A289AC62400CD9424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6D29289AC62400CD9424 /* AppDelegate.swift */; };
 		B9DA6D2C289AC62400CD9424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6D2B289AC62400CD9424 /* SceneDelegate.swift */; };
-		B9DA6D2E289AC62400CD9424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6D2D289AC62400CD9424 /* ViewController.swift */; };
 		B9DA6D31289AC62400CD9424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6D2F289AC62400CD9424 /* Main.storyboard */; };
 		B9DA6D33289AC62500CD9424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6D32289AC62500CD9424 /* Assets.xcassets */; };
 		B9DA6D36289AC62500CD9424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6D34289AC62500CD9424 /* LaunchScreen.storyboard */; };
+		B9DA6D3E289AC68000CD9424 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6D3D289AC68000CD9424 /* PhotosCollectionViewController.swift */; };
+		B9DA6D40289AC82400CD9424 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6D3F289AC82400CD9424 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9DA6D26289AC62400CD9424 /* PhotoTapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DA6D29289AC62400CD9424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DA6D2B289AC62400CD9424 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9DA6D2D289AC62400CD9424 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9DA6D30289AC62400CD9424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DA6D32289AC62500CD9424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DA6D35289AC62500CD9424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DA6D37289AC62500CD9424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DA6D3D289AC68000CD9424 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		B9DA6D3F289AC82400CD9424 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				B9DA6D29289AC62400CD9424 /* AppDelegate.swift */,
 				B9DA6D2B289AC62400CD9424 /* SceneDelegate.swift */,
-				B9DA6D2D289AC62400CD9424 /* ViewController.swift */,
+				B9DA6D3D289AC68000CD9424 /* PhotosCollectionViewController.swift */,
+				B9DA6D3F289AC82400CD9424 /* PhotoCell.swift */,
 				B9DA6D2F289AC62400CD9424 /* Main.storyboard */,
 				B9DA6D32289AC62500CD9424 /* Assets.xcassets */,
 				B9DA6D34289AC62500CD9424 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DA6D2E289AC62400CD9424 /* ViewController.swift in Sources */,
+				B9DA6D40289AC82400CD9424 /* PhotoCell.swift in Sources */,
 				B9DA6D2A289AC62400CD9424 /* AppDelegate.swift in Sources */,
 				B9DA6D2C289AC62400CD9424 /* SceneDelegate.swift in Sources */,
+				B9DA6D3E289AC68000CD9424 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

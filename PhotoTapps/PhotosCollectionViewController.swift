@@ -18,6 +18,14 @@ class PhotosCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        if segue.identifier == "pickPhotoSegue" {
+            let photoVC = segue.destination as! PhotoViewController
+            let cell = sender as! PhotoCell
+            photoVC.image = cell.docImageView.image
+        }
+    }
     
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
